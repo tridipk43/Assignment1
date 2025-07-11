@@ -1,12 +1,13 @@
 
 
 .inter {
-  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
-
 
 .nav-title{
     font-weight: 800;
@@ -125,26 +126,32 @@ nav{
 .rev-item{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 14px;
 }
 
 .rev-items{
     display: flex;
-    text-align: left;
-    gap: 25px;
+    justify-content: center;
+    gap: 35px;
 }
 
 .rev{
-    background-color: rgba(242, 237, 237, 1);
+    background-color: #F2EDED;
     box-shadow: #181818;
+    text-align: left;
     border-radius: 10px;
-    width: 366px;
+    width: 330px;
     height: 243px;
-    padding: 24px 24px;
+    padding: 24px 28px;
 }
 
 .reviews{
     text-align: center;
-    margin: 50px 250px;
+    /* margin: 50px 250px; */
+}
+
+.rev p{
+    font-weight: 500;
+    font-size: 18px;
 }
 
