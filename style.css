@@ -100,3 +100,51 @@ nav{
     gap: 100px;
     justify-content: space-around;
 }
+
+.star{
+    display: flex;
+}
+
+.revtitle{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.rev_name{
+    font-size: 19px;
+    font-weight: bold;
+    color: #757575;
+}
+
+.rev_date{
+    color: rgba(179, 179, 179, 1);
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.rev-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rev-items{
+    display: flex;
+    text-align: left;
+    gap: 25px;
+}
+
+.rev{
+    background-color: rgba(242, 237, 237, 1);
+    box-shadow: #181818;
+    border-radius: 10px;
+    width: 366px;
+    height: 243px;
+    padding: 24px 24px;
+}
+
+.reviews{
+    text-align: center;
+    margin: 50px 250px;
+}
+
