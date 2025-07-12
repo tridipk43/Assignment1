@@ -162,6 +162,7 @@ nav{
 
 footer{
     padding: 110px 200px;
+    border: none;
     display: flex;
     gap: 100px;
     background-color: rgba(70, 63, 255, 0.1);
@@ -197,7 +198,7 @@ footer textarea{
 }
 
 .touch{
-    width: 110%;
+    width: 100%;
 }
 
 footer label{
@@ -208,6 +209,7 @@ footer label{
 .logo{
     text-align: center;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .logo-title{
@@ -230,5 +232,4 @@ footer label{
     text-decoration: none;
     font-size: 22px;
     color: rgba(179, 179, 179, 1);
-
 }
