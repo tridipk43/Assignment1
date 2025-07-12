@@ -84,7 +84,7 @@ nav{
 }
 
 .item-title{
-    font-weight: bolder;
+    /* font-weight: bolder; */
     font-size: 80px;
     color: rgba(78, 71, 255, 1);
 }
