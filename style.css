@@ -17,7 +17,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 50px 150px;
 }
 
 .header{
@@ -49,7 +49,7 @@ nav{
     font-weight: bold;
     font-size: medium;
     color: white;
-    padding: 18px 35px;
+    padding: 18px 40px;
     border-radius: 10px;
     border: none;
 }
@@ -181,7 +181,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     background-color: white;
     /* display: block; */
     width: 100%;
-    padding: 14px 24px;
+    padding: 14px 20px;
     margin-top: 15px;
     margin-bottom: 20px;
     font-size: 18px;
@@ -198,7 +198,7 @@ footer textarea{
 }
 
 .touch{
-    width: 100%;
+    width: 107%;
 }
 
 footer label{
