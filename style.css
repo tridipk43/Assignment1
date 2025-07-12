@@ -97,13 +97,13 @@ nav{
 .product{
     background-color: rgba(70, 63, 255, 0.1);
     text-align: center;
+    justify-content: center;
     padding: 20px 50px;
     margin: 61px 141px;
     border-radius: 35px;
 }
 .product-items{
     display: flex;
-    gap: 100px;
     justify-content: space-around;
 }
 
@@ -146,13 +146,13 @@ nav{
     text-align: left;
     border-radius: 10px;
     width: 330px;
-    height: 243px;
+    height: 100%;
     padding: 24px 28px;
 }
 
 .reviews{
     text-align: center;
-    margin: 50px 250px;
+    margin: 35px 250px;
 }
 
 .rev p{
