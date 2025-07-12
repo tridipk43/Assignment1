@@ -1,12 +1,10 @@
 
 
 .inter {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 
 .nav-title{
@@ -56,6 +54,12 @@ nav{
     border: none;
 }
 
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: chocolate;
+    color: #181818;
+    font-weight: lighter;
+}
 .action-title{
     font-size: 50px;
     font-weight: 650;
@@ -69,9 +73,10 @@ nav{
 
 .action{
     display: flex;
-    gap: 400px;
+    gap: 350px;
     text-align: center;
-    padding: 50px 141px;
+    justify-content: center;
+    padding: 50px 130px;
 }
 
 .action-item{
@@ -155,3 +160,75 @@ nav{
     font-size: 18px;
 }
 
+footer{
+    padding: 110px 200px;
+    display: flex;
+    gap: 100px;
+    background-color: rgba(70, 63, 255, 0.1);
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    /* display: block; */
+    width: 100%;
+    padding: 14px 24px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+}
+
+footer textarea{
+    height: 150px;
+}
+
+.footer-title{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.touch{
+    width: 110%;
+}
+
+footer label{
+    font-weight: 600;
+    font-size: medium;
+}
+
+.logo{
+    text-align: center;
+    justify-content: center;
+}
+
+.logo-title{
+    color: rgba(78, 71, 255, 1);
+    font-size: 100px;
+}
+
+.logo-items{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.logo-description{
+    color: rgba(179, 179, 179, 1);
+    font-size: 22px;
+}
+
+.logo-bt{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgba(179, 179, 179, 1);
+
+}
